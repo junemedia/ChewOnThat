@@ -49,23 +49,7 @@
 	
 	<div id="header_chef">
 		<a id="box-link" title="recipe4living.com" href="http://www.recipe4living.com"></a><h1><a href="<? bloginfo('url'); ?>"></a></h1>
-		<div class="top_ads">
-			<!--/* OpenX Asynchronous JavaScript tag */-->
-
-			<div id="537232205_630x90_ATF" style="width:630px;height:90px;margin:0;padding:0">
-			  <noscript><iframe id="bae33fbeb6" name="bae33fbeb6" src="//junemedia-d.openx.net/w/1.0/afr?auid=537232205&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="630" height="90"><a href="//junemedia-d.openx.net/w/1.0/rc?cs=bae33fbeb6&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//junemedia-d.openx.net/w/1.0/ai?auid=537232205&cs=bae33fbeb6&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
-			</div>
-			<script type="text/javascript">
-			  var OX_ads = OX_ads || [];
-			  OX_ads.push({
-			     slot_id: "537232205_630x90_ATF",
-			     auid: "537232205"
-			  });
-			</script>
-			
-			<script type="text/javascript" src="//junemedia-d.openx.net/w/1.0/jstag"></script>
-			<!-- end openx -->
-		</div>
+		<div class="top_ads"> </div>
 		<?cot_PrintPages();?>
 	</div>
 	

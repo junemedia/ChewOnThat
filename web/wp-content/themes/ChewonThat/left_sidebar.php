@@ -60,24 +60,7 @@ $rss = fetch_rss("http://www.chewonthatblog.com/cache/rss_xml.cache");
 			</ul>
 		</div>
 
-		<div class="box" style="text-align:center;">
-			<!--/* OpenX Asynchronous JavaScript tag */-->
-
-			<div id="537232204_160x600" style="width:160px;height:600px;margin:0;padding:0">
-			  <noscript><iframe id="86aa3ae7f1" name="86aa3ae7f1" src="//junemedia-d.openx.net/w/1.0/afr?auid=537232204&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="160" height="600"><a href="//junemedia-d.openx.net/w/1.0/rc?cs=86aa3ae7f1&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//junemedia-d.openx.net/w/1.0/ai?auid=537232204&cs=86aa3ae7f1&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
-			</div>
-			<script type="text/javascript">
-			  var OX_ads = OX_ads || [];
-			  OX_ads.push({
-			     slot_id: "537232204_160x600",
-			     auid: "537232204"
-			  });
-			</script>
-			
-			<script type="text/javascript" src="//junemedia-d.openx.net/w/1.0/jstag"></script>
-			<!-- end openx -->
-
-		</div>
+		<div class="box" style="text-align:center;"> </div>
 		
 		
 			<!--

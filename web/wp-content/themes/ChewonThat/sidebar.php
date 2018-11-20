@@ -24,55 +24,14 @@
 			</p>
 	</div><br>-->
 	
-	<div class='box'>
-		<!--/* OpenX Asynchronous JavaScript tag */-->
-
-		<div id="537232201_300x250ATF" style="width:300px;height:250px;margin:0;padding:0">
-		  <noscript><iframe id="c9fa39716d" name="c9fa39716d" src="//junemedia-d.openx.net/w/1.0/afr?auid=537232201&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="300" height="250"><a href="//junemedia-d.openx.net/w/1.0/rc?cs=c9fa39716d&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//junemedia-d.openx.net/w/1.0/ai?auid=537232201&cs=c9fa39716d&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
-		</div>
-		<script type="text/javascript">
-		  var OX_ads = OX_ads || [];
-		  OX_ads.push({
-		     slot_id: "537232201_300x250ATF",
-		     auid: "537232201"
-		  });
-		</script>
-
-		<script type="text/javascript" src="//junemedia-d.openx.net/w/1.0/jstag"></script>
-		<!-- end openx -->
-
-	</div>
+	<div class='box'> </div>
 	
-
-	
-	<!-- PUT THIS TAG IN DESIRED LOCATION OF SLOT ChewOnThat_RON_300x250 -->
-	<script type="text/javascript">
-	  GA_googleFillSlot("ChewOnThat_RON_300x250");
-	</script>
-	<!-- END OF TAG FOR SLOT ChewOnThat_RON_300x250 -->
 
 	<!--<script type='text/javascript' src='http://static.fmpub.net/zone/6878'></script>
 <script type='text/javascript' src='http://static.fmpub.net/site/chewonthatblog'></script>-->
 		
 	<?php dynamic_sidebar("right_sidebar"); ?>
-	<div class='box'>
-		<!--/* OpenX Asynchronous JavaScript tag */-->
-
-		<div id="537232203_300x250BTF" style="width:300px;height:250px;margin:0;padding:0">
-		  <noscript><iframe id="f1ea4ed916" name="f1ea4ed916" src="//junemedia-d.openx.net/w/1.0/afr?auid=537232203&cb=INSERT_RANDOM_NUMBER_HERE" frameborder="0" scrolling="no" width="300" height="250"><a href="//junemedia-d.openx.net/w/1.0/rc?cs=f1ea4ed916&cb=INSERT_RANDOM_NUMBER_HERE" ><img src="//junemedia-d.openx.net/w/1.0/ai?auid=537232203&cs=f1ea4ed916&cb=INSERT_RANDOM_NUMBER_HERE" border="0" alt=""></a></iframe></noscript>
-		</div>
-		<script type="text/javascript">
-		  var OX_ads = OX_ads || [];
-		  OX_ads.push({
-		     slot_id: "537232203_300x250BTF",
-		     auid: "537232203"
-		  });
-		</script>
-
-		<script type="text/javascript" src="//junemedia-d.openx.net/w/1.0/jstag"></script>
-		<!-- end openx -->
-
-	</div>
+	<div class='box'> </div>
 	<br><br>
 			</div>
 		
