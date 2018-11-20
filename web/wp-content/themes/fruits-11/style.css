@@ -1,0 +1,696 @@
+/*  
+Theme Name: Fruits
+Theme URI: http://themey.com/fruits-wordpress-theme/
+Description:A fruity theme! Green & red apples feature in this light & bright layout for WordPress.
+Version: 1.1
+Author: Themey
+Author URI: http://themey.com
+*/
+
+/* Reset Margins */
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.hidden {
+	display: none;
+}
+
+/* Body Classes Start*/
+body {
+	font-size: 62.5%; /* Resets 1em to 10px */
+	font-family: Arial, Sans-Serif;
+	color: #000000;
+	text-align: center;
+	background: #fcfeff url('images/page_background.jpg') top center repeat-y;
+	}
+#wrapper {
+	background: url('images/header_background.jpg') top center no-repeat;
+}
+#page {
+	margin: 0px auto;
+	margin-top: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 752px;
+	margin: auto;
+	margin-top: 0px;
+}
+/* Body Classes End*/
+
+
+/* Header Classes */
+#header {
+	margin: 0px 0px 0px 0px; 
+	padding: 0px; 
+	height: 200px; 
+	width: 752px;
+}
+#headernav {
+	float: right;
+	margin-right: 20px;
+	margin-top: 70px;
+}
+#headernav2 {
+	float: right;
+	width: 500px;
+	height: 200px;
+	margin-top: 23px;
+	padding-left: 30px;
+}
+#headernav .navitem {
+	float: right;
+	height: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #ffffff;
+}
+#headernav .navitem a{
+	color: #ffffff;
+}
+#headertitle {
+	text-align: left;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+h1 {
+	font-size: 2.5em;
+	color: #000000;
+	margin: 0px;
+	font-weight: bold;
+}
+h1, h1 a, h1 a:hover, h1 a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+#headertitle .description {
+	font-size: 1.6em;
+	text-decoration: none;
+	color: #000000;
+}
+/* Header Classes End*/
+
+/* Post Structure Classes Start*/
+#content {
+	font-size: 1.2em;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
+	width: 535px;
+	text-align: left;
+}
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	width: 500px;
+	margin: auto;
+}
+.navigation a {
+	color: #d81235;
+	font-weight: bold;
+}
+/* Post Structure Classes End */
+
+/* Post Classes Start */
+.post {
+	width: 530px;
+	margin: 0 0 40px;
+}
+.post img {
+	padding: 10px;
+}
+.post-head {
+}
+.post-head h2 {
+	float: left;
+	font-size: 1.6em;
+	color: #c51432;
+	margin: 8px 0px 3px 0px;
+	width: 370px;
+	padding-left: 10px;
+}
+.post-head h2 a{
+	color: #c51432;
+}
+.post-head h2 a:hover {
+	text-decoration: underline;
+	color: #c51432;
+}
+.post-head .post-chrono {
+	color: #f0eade;
+	padding: 18px 0px 0px 10px;
+	float: left;
+}
+.postcomments {
+	width: 124px;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	float: right;
+	margin-right: 10px;
+}
+.postcomments a{
+	color: #769c43;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.post hr {
+	display: block;
+}
+#singlepostmetadata {
+	color: #ffffff;
+	background: #c0db8c;
+	padding: 5px;
+	margin-left: 3px;
+	font-weight: bold;
+	clear: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.postmetadata {
+	color: #000000;
+	background: #c0db8c;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	font-weight: bold;
+	clear: left;
+	font-size: 1em;
+	padding-left: 10px;
+}
+.postmetadata a{
+	color: #000000;
+}
+.postmetadata a:hover {
+	text-decoration: underline;
+	color: #668aaf;
+}
+.postcategory {
+	color: #737373;
+	padding-top: 5px;
+	margin-left: 5px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	clear: left;
+	font-size: .8em;
+}
+.postcategory a{
+	color: #737373;
+	text-decoration: underline;
+}
+.post-content {
+	color: #000000;
+	padding: 10px;
+}
+.post-content ul, .post-content ol {
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* Post Classes End */
+
+/* Begin Sidebar */
+
+#sidebar {
+	margin-top: 30px;
+	width: 180px;
+	padding: 3px;
+	font-size: 1.3em;
+	text-align: left;
+	float: right;
+	background: url('images/sidebar_background.jpg') bottom left repeat-y;
+}
+#sidebar h2 {
+	margin: 5px 15px 5px 5px;
+	padding: 3px;
+	font-size: 1.2em;
+	color: #ffffff;
+	background: #d81235;
+}
+#sidebar a{
+	color: #405415;
+}
+#searchformwrapper {
+	float: left;
+	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+#s {
+	background: #f0ecf7;
+	border: 1px solid #000000;
+	width: 100px;
+	padding: 2px;
+	color: #446312;
+}
+#searchsubmit {
+	padding: 1px;
+	background: #c0db8c;
+	border: 1px solid #000000;
+	color: #000000;
+}
+#sidebar form {
+	margin: 0;
+}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 20px 0px 0px 0px;
+	padding: 0;
+}
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 20px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+#sidebar ul ol li {
+	list-style: decimal outside;
+}
+#sidebar ul ul li{
+	list-style: circle;
+	list-style-image: url('images/bullet.gif');
+	margin: 0px;
+	margin-left: 20px;
+	padding: 0px;
+}
+#sidebar ul li div{
+	margin-left: 10px;
+}
+#sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+
+
+/* End Sidebar */
+
+/* Begin Calendar */
+#calendar_wrap {
+	height: 183px;
+	margin: auto;
+	margin-left: 415px;
+	margin-bottom: 20px;
+	width: 365px;
+}
+* html #calendar_wrap {
+	width: 360px;
+}
+#wp-calendar {
+	empty-cells: show;
+	width: 285px;
+	height: 143px;
+	border-collapse: collapse;
+	margin: auto;
+}
+* html #wp-calendar {
+	margin: 0px auto 0;
+}
+#wp-calendar caption {
+	font-weight: bold;
+	font-size: 1.5em;
+	text-align: center;
+	color: #6b96b9;
+	padding-top: 0px;
+	height: 15px;
+	width: 100%;
+	border-collapse: collapse;
+	background: none;
+}
+* html #wp-calendar caption {
+	padding-top: 0px;
+}
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	background: #6b96b9;
+	text-align: center;
+	color: #ffffff;
+	border-collapse: collapse;
+}
+#wp-calendar tbody {
+	background: #c9d7e3;
+	color: #a4a4a4;
+	border-collapse: collapse;
+}
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#wp-calendar td.pad:hover { 
+	background-color: #fff; 
+}
+#wp-calendar tfoot {
+	background: none;
+	color: #ffffff;
+	border-collapse: collapse;
+}
+#wp-calendar a {
+	text-decoration: none;
+	display: block;
+	color: #6b96b9;
+	font-weight: bold;
+}
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	font-size: 9pt;
+	color: #6b96b9;
+}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	font-size: 9pt;
+	color: #6b96b9;
+}
+/* End Calendar */
+
+p {
+	margin-top: 10px;
+}
+
+blockquote {
+	margin: 15px 30px 15px 10px;
+	padding-left: 20px;
+	border-left: 5px solid #c51432;
+	color: #000000;
+}
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+h2 {
+	font-size: 1.6em;
+	color: #415972;
+}
+.entry {
+	color: #fffbcf;
+}
+
+
+
+small {
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h3 {
+	font-weight: bold;
+	}
+
+h3 {
+	font-size: 1.3em;
+	}
+h3, h3 a, h3 a:visited {
+	color: #415972;
+	}
+h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+.entry p a:visited {
+	color: #b85b5a;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	background-color: #ebecee;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+	}
+.alt {
+	background-color: #c9d6e0;
+	}
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	color: #ffffff;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+
+small, .nocomments, strike {
+	}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, h2 a:hover, h3 a:hover {
+	color: #72bf20;
+	text-decoration: none;
+	}
+
+a:hover {
+	text-decoration: underline;
+	}
+h2 {
+	margin: 30px 0 0;
+	color: #d81235;
+	}
+
+h2.pagetitle {
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	color: #415972;
+	}
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+html>body .entry ul {
+	margin-left: 0px;
+	padding: 0 0 0 30px;
+	list-style: none;
+	padding-left: 10px;
+	text-indent: -10px;
+	} 
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+.entry ul li:before {
+	content: "\00BB \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#extra_data {
+	margin-left: 15px;
+	margin-right: 15px;
+}	
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+
+select {
+	width: 130px;
+}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+
+#commentform p {
+	color: #000000;
+}
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 90%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: right;
+	}
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+
+
+.center {
+	text-align: center;
+}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: none;
+	}
+
+
+
+/* Footer Classes Start */
+
+	#footer {
+		clear: both;
+		height: 100px;
+		background: url('images/footer_background.jpg') bottom center no-repeat;
+		margin: auto;
+	}
+	#footercontent {
+		padding-top: 72px;
+		width: 780px;
+		margin: auto;
+	}
+	#FooterLeft {
+		float: left;
+		text-align: left;
+		margin-left: 20px;
+		font-size: 1.2em;
+		color: #aeaaaa;
+		font-weight: bold;
+	}
+	#FooterRight {
+		float: right;
+		text-align: right;
+		margin-right: 20px;
+		font-size: 1.2em;
+		color: #aeaaaa;
+		font-weight: bold;
+	}
+	#footercontent a {
+		color: #aeaaaa;
+	}
+
+/* Footer Classes End */
+

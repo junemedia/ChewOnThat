@@ -1,0 +1,24 @@
+MyJournal Hypereal comes with several layouts allowing you to choose where
+you want your sidebars and content column to appear and the number of columns
+you want.
+
+The default one is the 3Columns with 2 right sidebars and a left content column.
+
+To choose another layout :
+1) Open the style.css found in the myjournal_hypereal theme's folder
+2) Under the theme's information section at the topmost area, you'll see the following section:
+
+/* Choose your layout here, see Read to choose layout.txt found in theme's folder */
+@import url('layouts/3cright.css'); 
+
+3) Replace 3cright.css with the following according to the layout you want:
+3.1	3cleft.css	- for a 3Columns layout with left sidebars and a right content column.
+3.2	3cboth.css	- for a 3Columns layout with sidebar on sides of a center content column.
+3.3	2cright.css	- for a 2Columns layout with sidebar on the right.
+3.4	2cleft.css	- for a 2Columns layout with sidebar on the left.
+
+All layouts' stylesheets are found in the layouts folder under myJournal Hypereal theme's folder.
+
+Additional layouts will get added so do subscribe to my feeds to receive info about future
+ones : http://feeds.feedburner.com/squarerss
+

@@ -1,0 +1,568 @@
+/* 
+Theme Name: mts journey
+Theme URI: http://www.webdesign-in.de/wordpress-themes/
+Description:This is a classic three column, flexible width, gettexted Design for massive news. With a little bit of css knowledge you can give both sidebars to the right. Have Fun!  by <a href="http://www.webdesign-in.de/" title="Webdesign by mts">mts</a>. A theme for massiv content. A great place for all your posts and information. It is ready for WP 2.7 and upwards compatible to WP  2.6.3. 
+Tags: flexible-width, left-sidebar,right-sidebar, three-columns, light,threaded-comments,sticky-post
+
+Version: 1.0.4
+Author: mts
+Author URI: http://www.webdesign-in.de/
+
+	Released under GPL.
+Attention: Do not alter height and width unless you know what you are doing,
+or the sky and your sidebars will fall on your head...
+at header.php you will find some specials for IE
+
+
+the photoprapher of the header image was my son, I have permission to give it to you,
+but please do not use this photo without the theme.respect his work.
+the photo shows a little town in Swizerland near Zurich and the river is named Rhine.
+
+
+	
+ */
+/*<![CDATA[*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+html {
+	color: #151515;
+	background-color: #bdcbd0;
+}
+div#containerl {
+	max-width: 1200px;
+	width: 97%;
+	margin: 0 auto;
+	text-align: center;
+	border: 3px double #688f9e;
+	color: #151515;
+	background-color: #fff;
+}
+div#wrapper {
+	width: 100%;
+	float: left;
+	min-height: 500px;
+	height: auto !important;
+	height: 100%;
+}
+div#content {
+	margin: 0 21% 5px 21%;
+	text-align: left;
+	min-height: 500px;
+	height: auto !important;
+	height: 100%;
+	overflow: hidden;
+}
+div#header {
+	width: 99.8%;
+	position: relative;
+	height: 161px;
+	background-image: url(images/mts-journey-header.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	margin: 0;
+	padding: 0;
+	border-top: 1px solid #688f9e;
+	border-left: 1px solid #688f9e;
+	border-right: 1px solid #688f9e;
+	border-bottom: 2px solid #688f9e;
+}
+div#header h1 a {
+	position: absolute;
+	top: 80px;
+	left: 39%;
+	font:oblique 160%/170% "Palatino Linotype", swiss, serif;
+	color:#bdcbd0;
+	background-color:inherit;
+}
+div#sidebar {
+	float: left;
+	width: 20.5%;
+	margin-top: 8px;
+	margin-left: -21%;
+	text-align: left;
+}
+div#navigation {
+	float: left;
+	width: 20.5%;
+	margin-top: 8px;
+	margin-left: -99.74%;
+	text-align: left;
+}
+div#footer {
+	margin: 0 auto;
+	text-align: center;
+	clear: left;
+	max-width: 1200px;
+	width: 97%;
+}
+/*--all over the world--*/
+html, body {
+	font: 0.9em/1.4em Verdana, "Trebuchet ms", "Gill Sans MT", "Gill sans", sans-serif;
+}
+ol li, ul li {
+	list-style-type: none;
+	list-style-image: none;
+	line-height: 1.6em;
+}
+body img.wp-smiley {
+	border: none;
+	float: none;
+	vertical-align: middle;
+}
+.clear {
+	clear: both;
+}
+h2, h3, h4, h5, h6 {
+	margin: 6px 8px 4px 8px;
+	font: 130%/140% "Palatino Linotype", swiss, serif;
+	color: #4d86df;
+	background-color: inherit;
+}
+input, textarea {
+	background-color: #fff;
+	color: #151515;
+}
+p {
+	padding: 4px 10px;
+	margin: 0 10px 0 10px;
+}
+#footer p {
+	margin: 0 5px 0 0;
+	padding: 0.5em 0;
+	text-align: right;
+	font-size: 0.8em;
+}
+pre, code {
+	font: 0.9em/1.7em Courier, monospace;
+	width: 90%;
+	overflow: auto;
+	clear: both;
+	margin: 10px 0 10px 15px;
+	padding: 5px 3px 20px 4px;
+
+}
+pre{	border: 1px solid #2a4651;}
+b, strong, i, em {
+
+}
+ins {
+	text-decoration: none;
+	padding-left: 2px;
+	border-bottom: 1px solid #2a4651;
+	border-left: 1px solid #2a4651;
+}
+del {
+	font-weight: bold;
+	color: #ff0000;
+	background-color: inherit;
+}
+address {
+	margin: 0 5%;
+	padding: 0 5px 0 9px;
+	border-left: 2px solid #2a4651;
+}
+blockquote {
+	border-left: 3px double #2a4651;
+	margin: 5px auto;
+	width: 70%;
+	padding-left: 5px;
+}
+blockquote p {
+	padding: 5px;
+}
+acronym, abbr, span.caps, span.abbr {
+	cursor: help;
+}
+acronym, abbr, span.abbr {
+	border-bottom: 1px dashed #4d86df;
+}
+/*--links--*/
+a, a:link {
+	padding: 0 2px;
+	color: #3d4b0e;
+	background-color: transparent;
+	text-decoration: underline;
+}
+a:visited {
+	color: #37440d;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:link:focus {
+	color: #ff0000;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:link:hover, a:visited:hover {
+	color: #2a4651;
+	background-color: inherit;
+	text-decoration: none;
+}
+a:link:active, a:visited:active {
+	color: #ffa500;
+	background-color: inherit;
+}
+/*--images as a link--*/
+:link img {
+	border: none;
+}
+:visited img {
+	border: none;
+}
+:link:active img,:visited:active img {
+	border: none;
+}
+
+/*--articles--*/
+div.post {
+	margin: 10px 0;
+	border-bottom: 1px solid #688f9e;
+}
+/*--new classes for  WP 27  at the end of the file--*/
+
+
+
+.navigate {
+	text-align: center;
+	width: 98%;
+	margin: 0 auto;
+}
+.metadata {
+	border-top: 1px solid #688f9e;
+	margin: 0;
+	clear: both;
+}
+.more-link {
+	font-weight:bold;
+}
+.hentry  h2,
+.post h2 {
+	font: bold 170%/180% "Palatino Linotype", swiss, serif;
+}
+/*--lists--*/
+.hentry ul li,  
+.hentry ol li,
+.post ul li,  
+.post ol li {
+	padding: 2px 0 2px 12px;
+	background-repeat: no-repeat;
+	background-position: 0 7px;
+}
+.hentry ol li,
+.post ol li {
+	background-image: url(images/mts-ol-li.gif);
+}
+.hentry ul li,
+.post ul li {
+	background-image: url(images/mts-ul-li.gif);
+}
+
+.hentry  ul ul, 
+.hentry  ol ol, 
+.hentry  ul ol, 
+.hentry  ol ul,
+.post ul ul, 
+.post ol ol, 
+.post ul ol, 
+.post ol ul {
+	margin-left: 5px;
+}
+/*--sidebar on the right--*/
+#sidebar h2 {
+	border-top: 3px double #688f9e;
+	border-bottom: 1px solid #688f9e;
+	margin: 14px 0 14px 4px;
+	padding-left: 5px;
+	line-height: 1.6em;
+}
+div#sidebar ul {
+	margin: 2px 4px 9px 4px;
+	padding: 2px 3px;
+}
+div#sidebar ul ul {
+	margin: 0;
+	padding: 2px 0;
+}
+div#sidebar ul li,       div#sidebar ul li ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 2px 0 0 12px;
+	background-image: url(images/mts-links-li.gif);
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	line-height: 1.6em;
+}
+
+div#sidebar ul li.current_page_item, div#sidebar ul li ul li.current_page_item,
+div#sidebar ul li.current-cat, div#sidebar ul li ul li.current-cat { 
+  background-image: url(images/mts-links-li-current.gif);
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+}
+
+
+div#sidebar  .rss li {
+	background-image: none;
+}
+div#sidebar a b {
+	font-weight: normal;
+}
+/*--navigation on the left--*/
+#navigation h2 {
+	border-top:3px double #688f9e;
+	border-bottom: 1px solid #688f9e;
+	margin: 14px 4px 2px 0;
+	padding-left: 5px;
+	line-height: 1.6em;
+}
+div#navigation ul {
+	margin: 2px 4px 14px 4px;
+	padding: 2px 3px 2px 6px;
+}
+div#navigation ul ul {
+	margin: 0;
+	padding: 2px 0;
+}
+div#navigation ul li, div#navigation ul li ul li {
+	list-style-type: none;
+	margin: 0;
+	padding: 2px 0 0 12px;
+	background-image: url(images/mts-links-li.gif);
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+	line-height: 1.6em;
+}
+div#navigation ul li.current_page_item, div#navigation ul li ul li.current_page_item,
+div#navigation ul li.current-cat, div#navigation ul li ul li.current-cat { 
+  background-image: url(images/mts-links-li-current.gif);
+	background-repeat: no-repeat;
+	background-position: 0 8px;
+}
+
+div#navigation .rss li {
+	background-image: none;
+}
+div#navigation a b {
+	font-weight: normal;
+}
+
+/*--searchform--*/
+form#searchform {
+	text-align:left;
+	width: 90%;
+	margin: 2px;
+}
+form#searchform fieldset{
+  border:none;
+}
+form#searchform input{
+  border: 1px solid #688f9e;
+}
+input#s{
+  width:55%;
+  margin-left:4px;
+  padding:2px;
+}
+input#searchsubmit {
+	cursor: pointer;
+	display:inline;
+	width:32%;
+}
+/*--widgets tagcloud calendar-*/
+div.textwidget {
+	padding: 2px 3px 2px 9px;
+}
+ul.tagcloud li {
+	display: inline;
+	margin: 3px 0;
+	line-height: 150%;
+	padding-left: 3px;
+}
+#wp-calendar {
+	border: 1px dotted #688f9e;
+	text-align: center;
+	empty-cells: show;
+	font-size: 11px;
+	margin: 16px auto 5px auto;
+	width: 80%;
+}
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+}
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+}
+#wp-calendar a {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1px solid #688f9e;
+}
+#wp-calendar a:hover {
+	border: 1px solid #2a4651;
+}
+#wp-calendar a:visited {
+	border: 1px solid #2a4651;
+	font-weight: normal;
+}
+#wp-calendar caption {
+	text-align: center;
+	font-size: 12px;
+	margin: 0;
+	margin: 0 auto;
+	font-weight: bold;
+	border: 1px dotted #688f9e;
+}
+#wp-calendar td {
+	border: 1px dotted #688f9e;
+	font-size: 11px;
+	letter-spacing: normal;
+	text-align: center;
+}
+#wp-calendar td.pad:hover {
+	background: #688f9e;
+}
+#wp-calendar td:hover, #wp-calendar #today {
+	background: #688f9e;
+	color: #fff;
+}
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	color: #990000;
+	text-align: center;
+}
+/*--images and other--*/
+div.post p img {
+	border: 1px solid #688f9e;
+	padding: 2px;
+	float:left;
+	margin:5px 5px 5px 0;
+}
+
+.right {
+	float: right;
+	margin: 3px 5px;
+}
+
+.left {
+	float: left;
+	margin: 3px 5px;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+.aligncenter, div.aligncenter {
+	display: block;
+	margin: 8px auto;
+	text-align: center;
+}
+.alignright {
+	float: right;
+}
+.alignleft {
+	float: left;
+}
+
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.alignright {
+	display: inline;
+	margin: 0 0 2px 7px;
+	padding: 4px;
+	float:right;
+}
+img.alignleft {
+	display: inline;
+	margin: 0 7px 2px 0;
+	padding: 4px;
+	float:left;
+}
+.wp-caption {
+	border: 1px solid #688f9e;
+	text-align: center;
+	padding-top: 4px;
+	margin: 10px;
+}
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.wp-caption p.wp-caption-text {
+	padding: 0 4px 5px;
+	margin: 0;
+}
+/*------ gallery ------*/
+.gallery {
+	text-align: center;
+}
+.gallery img {
+	padding: 3px;
+	border: 1px solid #688f9e;
+}
+.attachment {
+	text-align: center;
+}
+.attachment img {
+	padding: 5px;
+	border: 1px solid #688f9e;
+}
+.imgnav {
+	text-align: center;
+}
+.imgleft {
+	float: left;
+}
+.imgleft img {
+	padding: 5px;
+	border: 1px solid #688f9e;
+}
+.imgright {
+	float: right;
+}
+.imgright img {
+	padding: 5px;
+	border: 1px solid #688f9e;
+}
+html div.post p img.wp-smiley{border:none;}
+.topp{clear:both;text-align:right;font-size:0.9em;}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+	height: 1%;
+}
+/* End hide from IE-mac */
+
+/*--news wp 27--*/
+.post{ }
+.page{ }
+.tag{}
+
+/*--you can design every post specific to its category --*/
+.category-nameofthecat{}
+
+.hentry{margin: 10px 0; 
+	border-bottom: 1px solid #688f9e;}
+.sticky{margin: 10px 0; text-align:justify;border-bottom: 1px solid #688f9e;}
+.sticky h2 {border-top:3px double #688f9e;
+	border-bottom: 1px solid #688f9e;width:99%;text-align:center; }
+/*--end news classes--*/
+/*]]>*/

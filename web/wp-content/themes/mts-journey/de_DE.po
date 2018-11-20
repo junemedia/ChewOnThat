@@ -1,0 +1,471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mtsjourney\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-22 12:49+0100\n"
+"PO-Revision-Date: 2008-08-22 12:50+0100\n"
+"Last-Translator: mts <mts@webdesign-in.de>\n"
+"Language-Team: mts <mts@webdesign-in.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "So sorry"
+msgstr "Tut mir leid"
+
+#: 404.php:5
+msgid "No posts matched your criteria."
+msgstr "Kein Eintrag entspricht deinen Suchkriterien."
+
+#: 404.php:7
+msgid "New Articles"
+msgstr "Neue Artikel"
+
+#: archive.php:6
+#: archive.php:9
+#: archive.php:12
+#: archive.php:15
+#: archive.php:18
+msgid "Archive for"
+msgstr "Archiv f&uuml;r"
+
+#: archive.php:21
+msgid "Author Archive"
+msgstr "Autor Archiv"
+
+#: archive.php:24
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#: archive.php:33
+#: index.php:14
+msgid "Filed under:"
+msgstr "Abgelegt unter:"
+
+#: archive.php:33
+#: index.php:16
+msgid "No Comments"
+msgstr "Keine Kommentare"
+
+#: archive.php:33
+#: index.php:16
+msgid "1 Comment"
+msgstr "1 Kommentar"
+
+#: archive.php:33
+#: index.php:16
+msgid "% Comments"
+msgstr "%  Kommentare"
+
+#: archive.php:33
+#: index.php:16
+msgid "Comments off"
+msgstr "Kommentare geschlossen"
+
+#: archive.php:33
+#: index.php:17
+msgid "edit"
+msgstr "bearbeiten"
+
+#: archive.php:37
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; Vorherige  Eintr&auml;ge"
+
+#: archive.php:37
+msgid "Next Entries &raquo;"
+msgstr "Neuere  Eintr&auml;ge &raquo;"
+
+#: comments.php:23
+#: comments.php:75
+msgid "Leave a reply"
+msgstr "Lass eine Nachricht da"
+
+#: comments.php:23
+msgid "One Response"
+msgstr "Eine Antwort"
+
+#: comments.php:23
+msgid "% Responses"
+msgstr "% Antworten"
+
+#: comments.php:25
+msgid "...whole wide world"
+msgstr "...weltweite Gespr&auml;che"
+
+#: comments.php:30
+#: comments.php:46
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s um %2$s"
+
+#: comments.php:30
+#: comments.php:46
+#: index.php:12
+#: single.php:11
+msgid "l, F jS, Y"
+msgstr "d.m.y"
+
+#: comments.php:36
+msgid "...At Home"
+msgstr "...Daheim"
+
+#: comments.php:44
+msgid "link to this comment"
+msgstr "Link zum Kommentar"
+
+#: comments.php:50
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar muss noch moderiert werden."
+
+#: comments.php:76
+msgid "You must be"
+msgstr "Du musst hier"
+
+#: comments.php:76
+msgid "logged in"
+msgstr "angemeldet als"
+
+#: comments.php:78
+msgid "log in"
+msgstr "angemeldet als"
+
+#: comments.php:82
+msgid "Let us talk about"
+msgstr "Lass uns dar&uuml;ber reden"
+
+#: comments.php:85
+msgid "Hi!"
+msgstr "Hallo"
+
+#: comments.php:88
+#: comments.php:89
+msgid "Log out"
+msgstr "Log out"
+
+#: comments.php:93
+msgid "Name and Mail are required"
+msgstr "Name und Email sind n&ouml;tig"
+
+#: comments.php:94
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:97
+msgid "Mail"
+msgstr "E-Mail"
+
+#: comments.php:97
+msgid "(will not be published)"
+msgstr "(wird nicht ver&ouml;ffentlicht)"
+
+#: comments.php:100
+msgid "Website"
+msgstr "Webseite"
+
+#: comments.php:106
+msgid "Join the discuss"
+msgstr "Beteilige Dich an der Diskussion"
+
+#: comments.php:107
+msgid "... on Topic"
+msgstr "... zum Thema"
+
+#: comments.php:108
+msgid "You can use these tags:"
+msgstr "Du kannst diese Tags nutzen:"
+
+#: comments.php:113
+msgid "Submit"
+msgstr "Senden"
+
+#: footer.php:3
+#: sidebar.php:32
+#: sidebar.php:54
+msgid "Beam me up"
+msgstr "Nach Oben"
+
+#: header.php:34
+msgid "Go to"
+msgstr "Gehe zur"
+
+#: header.php:34
+msgid "Homepage"
+msgstr "Startseite"
+
+#: index.php:12
+#: single.php:11
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: index.php:13
+#: single.php:12
+msgid "by "
+msgstr "von  "
+
+#: index.php:23
+msgid "&laquo; Next Entries |"
+msgstr "&laquo;  &Auml;ltere  Eintr&auml;ge | "
+
+#: index.php:24
+msgid "| Previous Entries &raquo;"
+msgstr "| Weitere  Eintr&auml;ge &raquo;"
+
+#: searchform.php:3
+msgid "search"
+msgstr "durchsuchen"
+
+#: searchform.php:5
+msgid "Search"
+msgstr "Suche"
+
+#: sidebar.php:11
+#, fuzzy
+msgid "Archive"
+msgstr "Archiv"
+
+#: sidebar.php:15
+msgid "Tag Cloud"
+msgstr "Stichw&ouml;rter  Wolke"
+
+#: sidebar.php:19
+msgid "Blogroll"
+msgstr "Links"
+
+#: sidebar.php:29
+msgid "Themes"
+msgstr "Themes"
+
+#: sidebar.php:39
+msgid "About"
+msgstr "About"
+
+#: sidebar.php:42
+msgid "Syndication"
+msgstr "Abonnement"
+
+#: sidebar.php:43
+msgid "Feed for articles"
+msgstr "Artikel per RSS"
+
+#: sidebar.php:43
+msgid "Stay Tuned"
+msgstr "Bleib am Ball"
+
+#: sidebar.php:43
+msgid "RSS"
+msgstr "RSS Feed"
+
+#: sidebar.php:46
+msgid "Pages"
+msgstr "Seiten"
+
+#: sidebar.php:50
+msgid "Category"
+msgstr "Kategorie"
+
+#: single.php:13
+msgid "and is filed under"
+msgstr "und wurde abgelegt unter"
+
+#: single.php:16
+#: single.php:28
+msgid "You can"
+msgstr "Du kannst"
+
+#: single.php:16
+#: single.php:29
+msgid "leave a response here"
+msgstr "hier einen Kommentar hinterlassen"
+
+#: single.php:17
+msgid "or send a"
+msgstr "oder einen"
+
+#: single.php:18
+#: single.php:24
+#, fuzzy
+msgid "Trackback"
+msgstr "Trackback"
+
+#: single.php:19
+#: single.php:25
+msgid "from your own site"
+msgstr "von deiner eigenen Seite"
+
+#: single.php:22
+msgid "Responses are currently closed, but you can send a"
+msgstr "Kommentare sind zur Zeit geschlossen, aber du kannst einen"
+
+#: single.php:30
+msgid "Pinging is currently not allowed"
+msgstr "Pingen ist zur Zeit nicht erlaubt"
+
+#: single.php:33
+msgid "Both comments and pings are currently closed"
+msgstr "Kommentare und Pings sind zur Zeit geschlossen"
+
+#~ msgid "(required)"
+#~ msgstr "(erforderlich)"
+#~ msgid "Search Term"
+#~ msgstr "Suchewort"
+#~ msgid "add to delicio us"
+#~ msgstr "zu delicio us hinzuf&uuml;gen"
+
+#, fuzzy
+#~ msgid "at "
+#~ msgstr "um"
+#~ msgid "This entry was posted on"
+#~ msgstr "Dieser Beitrag wurde geschrieben am"
+#~ msgid "You can follow any responses to this entry with"
+#~ msgstr "Du kannst die Kommentare verfolgen mit"
+
+#, fuzzy
+#~ msgid "Leave a Reply"
+#~ msgstr "Schreibe mir doch"
+#~ msgid "Please register to leave a reply"
+#~ msgstr "Bitte registrier Dich f&uuml;r einen Kommentar"
+#~ msgid "Your Thoughts to..."
+#~ msgstr "Dene Gedanken zu..."
+#~ msgid "Be Welcome,"
+#~ msgstr "Herzlich Willkommen,"
+#~ msgid "logout"
+#~ msgstr "abmelden"
+#~ msgid "Error 404"
+#~ msgstr "Fehler 404"
+#~ msgid "Something about you."
+#~ msgstr "Etwas &uuml;ber Dich."
+#~ msgid "to see my-photo-blog in a better view please visit:"
+#~ msgstr "Um my-photo-blog in besserer Vorschau zu sehen, gehe bitte zu:"
+#~ msgid "Theme Viewer"
+#~ msgstr "Theme Auswahl"
+#~ msgid "Use the Theme Switcher to choose my-photo-blog"
+#~ msgstr "Nutze den Theme Switcher, um my-photo-blog auszuw&auml;hlen.Danke."
+#~ msgid "you can delete this text:adsense-head-menu.php"
+#~ msgstr "Diesen Text kannst Du in der adsense-head-menu.php l&ouml;schen"
+#~ msgid "Archives:"
+#~ msgstr "Archiv:"
+#~ msgid "Author"
+#~ msgstr "Autor"
+#~ msgid "Sorry, you must be logged in to post a comment."
+#~ msgstr "Du musst angemeldet sein, um einen Kommentar zu hinterlassen."
+#~ msgid "Trackbacks are closed"
+#~ msgstr "Trackbacks sind geschlossen"
+#~ msgid "News"
+#~ msgstr "Neues"
+#~ msgid "Browse in same category:"
+#~ msgstr "In derselben Kategorie weiterlesen:"
+#~ msgid "or chronological:"
+#~ msgstr "oder chronologisch:"
+#~ msgid "Article Meta"
+#~ msgstr "Artikel  Meta"
+#~ msgid "RSS Feed"
+#~ msgstr "RSS Feed"
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+#~ msgid "is designed by mts from"
+#~ msgstr "gestaltet von mts"
+#~ msgid "WebDesign by mts"
+#~ msgstr "WebDesign von  mts"
+#~ msgid "some rights reserved"
+#~ msgstr "einige Rechte vorbehalten"
+#~ msgid "<br />Edit."
+#~ msgstr "<br />Bearbeiten."
+#~ msgid "or chronological"
+#~ msgstr "oder chronologisch"
+#~ msgid "% Comments "
+#~ msgstr "%  Kommentare"
+#~ msgid "Tag Archives:"
+#~ msgstr "Stichwort Archiv:"
+#~ msgid "Error 404 - I am so sorry!"
+#~ msgstr "Error 404 - Tut mir leid!"
+#~ msgid "One or two short sentences about yourself"
+#~ msgstr "Kurze Information wer denn hier schreibt."
+#~ msgid "Category archive for the"
+#~ msgstr "Kategorie Archiv "
+#~ msgid "Daily archive for "
+#~ msgstr "Tages Archiv"
+#~ msgid "Monthly archive for"
+#~ msgstr "Monatsarchiv"
+#~ msgid "Yearly archive for"
+#~ msgstr "Jahres Archiv"
+#~ msgid "Enter your password to view comments."
+#~ msgstr "Um die Kommentare zu lesen bitte das Passwort eingeben."
+#~ msgid "Leave a reply at your blog"
+#~ msgstr "Eine Nachricht von Deinem Blog verfassen"
+#~ msgid "Sosorry"
+#~ msgstr "So sorry"
+#~ msgid "To turn back please klick here:"
+#~ msgstr "Um zur&uuml;ckzukehren, bitte hier klicken:"
+#~ msgid "Tags:&nbsp;"
+#~ msgstr "Tags:&nbsp;"
+#~ msgid "<em>more... &raquo;</em>"
+#~ msgstr "<em>weiterlesen... &raquo;</em>"
+#~ msgid "<div class=\"seiten\">Pages:</div> "
+#~ msgstr "<div class=\"seiten\">Seiten:</div> "
+#~ msgid "Not found"
+#~ msgstr "Nicht gefunden"
+#~ msgid "Pages: "
+#~ msgstr "Seiten: "
+#~ msgid "Comment"
+#~ msgstr "Kommentar"
+#~ msgid "(Admin edit)"
+#~ msgstr "(Admin-Bearbeitung)"
+#~ msgid "No comments yet."
+#~ msgstr "Noch keine Kommentare."
+#~ msgid "Sorry, the comment form is closed at this time."
+#~ msgstr "Kommentare sind zur Zeit geschlossen."
+#~ msgid "Click here to login!"
+#~ msgstr "Hier anmelden"
+#~ msgid "allowed tags"
+#~ msgstr "erlaubte Tags"
+#~ msgid "Say It!"
+#~ msgstr "absenden"
+#~ msgid "Adaption and Design"
+#~ msgstr "Anpassung und Design"
+#~ msgid "queries"
+#~ msgstr "Verweise"
+#~ msgid "seconds"
+#~ msgstr "Sekunden"
+#~ msgid "<p>You are currently browsing the blog archives for the category"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv der Kategorie"
+#~ msgid "<p>You are currently browsing the blog archives for the tag"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv des Tags"
+#~ msgid "<p>You are currently browsing the blog archives for the day"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv von"
+#~ msgid "<p>You are currently browsing the blog archives for the month"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv des Monats"
+#~ msgid "<p>You are currently browsing the blog archives for the year"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv des Jahres"
+#~ msgid "<p>you have searched the"
+#~ msgstr "<p>Du suchst in "
+#~ msgid "for"
+#~ msgstr "nach"
+#~ msgid "<p>You are currently browsing for the archive"
+#~ msgstr "<p>Du durchsuchst gerade das Archiv"
+#~ msgid "Syndicate this site using RSS"
+#~ msgstr "RSS abonnieren"
+#~ msgid "Posts"
+#~ msgstr "Eintr&auml;ge"
+#~ msgid "Meta"
+#~ msgstr "Meta"
+#~ msgid "This page validates as XHTML 1.0 Strict"
+#~ msgstr "Diese Seite validiert als XHTML 1.0 Strict"
+#~ msgid ""
+#~ "Powered by WordPress, state-of-the-art semantic personal publishing "
+#~ "platform."
+#~ msgstr ""
+#~ "Powered by WordPress - die zeitgem&auml;&szlig;e Plattform zum Ver&ouml;"
+#~ "ffentlichen pers&ouml;nlicher Beitr&auml;ge."
+#~ msgid " | Tags:&nbsp;"
+#~ msgstr "| Tags:&nbsp;"
+#~ msgid "(<em>more... &raquo;</em>)"
+#~ msgstr "(<em>weiterlesen... &raquo;</em>)"
+

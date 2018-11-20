@@ -1,0 +1,33 @@
+/*
+	CSS files kept in the 'layouts' directory can be used to
+	costumize your myJournal Hypereal installation without having to mess
+	with the core myJournal Hypereal files.
+
+	Read the 'Read to choose layout.txt' found in the myJournal Hypereal theme's
+	folder to check out all available layouts.	
+	
+	Author Name	: 	Hans.N Coomar and Eric
+	Author Site	: 	http://blogosquare.com
+	Style Name	: 	Fluid, 2Columns Left sidebar
+	Style URI	:	http://blogosquare.com
+	Version	: 	1.0
+		
+*/
+
+div#container {float: right;margin: 0 0 0 -260px;width: 100%;margin-top: 0px !important;}
+
+div#content {margin: -16px 0 0 260px;margin-top: -16px !important;background: none !important}
+
+* html div#content {margin: 0px 0 0 280px;}
+
+div.sidebar {float: left;width: 200px;overflow: hidden;margin-left: 38px;margin-top: 0px !important;border-left:1px solid #f0f0f0;}
+
+* html div.sidebar {margin-left: 15px;}
+
+div#primary {padding-top: 10px;}
+
+div#secondary {clear: left;margin-top: 0px;margin-left: 38px;padding-left:4px;border-bottom:1px solid #f0f0f0;}
+
+* html div#secondary {clear: left;margin-top: 0px;margin-left: 15px;}
+
+div#footer {clear: both!important;width: 100%;}

@@ -1,0 +1,29 @@
+/*
+	CSS files kept in the 'layouts' directory can be used to
+	costumize your myJournal Hypereal installation without having to mess
+	with the core myJournal Hypereal files.
+
+	Read the 'Read to choose layout.txt' found in the myJournal Hypereal theme's
+	folder to check out all available layouts.	
+	
+	Author Name	: 	Hans.N Coomar and Eric
+	Author Site	: 	http://blogosquare.com
+	Style Name	: 	Fluid, 2Columns Left sidebar
+	Style URI	:	http://blogosquare.com
+	Version	: 	1.0
+	Comment	:	This layout works on high resolution only for Internet Explorer. On lower ones, the left-most sidebar
+				shifts to the bottom. On Mozilla Firefox, things work like a charm. Should correct that in future version.
+		
+div#container {float: right;margin: 0 0 0 -450px;width: 100%;margin-top: 0px !important;}
+
+div#content {margin: -16px 0px 0px 450px;margin-top: -16px !important;background: none !important;}
+
+* html div#content {margin: 0px 0px 0xp 450px;background: none !important;}
+
+div.sidebar {float: right;overflow: hidden;width: 200px;margin-top: 0px !important;padding-top:15px;}
+
+* html div.sidebar {margin-left: 9px;padding-top:15px;}
+
+div#secondary {width: 180px;border-left:1px solid #f0f0f0;padding-left:26px;border-bottom:1px solid #f0f0f0;}
+
+div#footer{clear:both!important;}
